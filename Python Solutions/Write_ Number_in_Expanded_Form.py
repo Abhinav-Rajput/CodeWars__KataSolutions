@@ -10,14 +10,12 @@
 def expanded_form(num):
     strNum = str(num)
     line = ''
-    space=' '
     for i in range(0,len(strNum)):
         if strNum[i]=='0':
             continue
         line += strNum[i] + ''
         for j in range(0,(len(strNum)-(i+1))):
             line += '0'
-        line += ' + '
-            
+        line += ' + '            
     line = line[0:len(line)-3]
     return line
