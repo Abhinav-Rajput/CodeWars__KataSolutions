@@ -13,11 +13,13 @@ def move_zeros(array):
     for i in range(0, d):
         w.append(0)
 
-    print (w)
+    print(w)
     return w
 
+
 def main():
-    pass
+    move_zeros(["a",0,0,"b",None,"c","d",0,1,False,0,1,0,3,[],0,1,9,0,0,{},0,0,9])
+
 
 if __name__ == '__main__':
-    main()    
+    main()
